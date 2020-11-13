@@ -1,0 +1,26 @@
+{
+  "name": "padroes-em-nodejs",
+  "version": "1.0.0",
+  "description": "Estudo de padrões em NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreVeiga/padroes-em-nodejs.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "padrões",
+    "Patterns",
+    "Design"
+  ],
+  "author": "Andre Machado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreVeiga/padroes-em-nodejs/issues"
+  },
+  "homepage": "https://github.com/AndreVeiga/padroes-em-nodejs#readme"
+}
