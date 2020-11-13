@@ -1,3 +1,8 @@
+/**
+ * Classe para padrão Continuation passing
+ * 
+ * @author Elton Veiga
+ */
 const continuationPassing = require('../patterns/continuation-passing')
 
 const print = result => console.log(`Valor da soma: ${result}`)

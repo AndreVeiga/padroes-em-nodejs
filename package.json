@@ -4,7 +4,7 @@
   "description": "Estudo de padrões em NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha ./test/**/*.js",
     "start": "node index.js"
   },
   "repository": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/AndreVeiga/padroes-em-nodejs/issues"
   },
-  "homepage": "https://github.com/AndreVeiga/padroes-em-nodejs#readme"
+  "homepage": "https://github.com/AndreVeiga/padroes-em-nodejs#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
 }
