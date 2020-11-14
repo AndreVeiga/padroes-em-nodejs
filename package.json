@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/**/*.js",
-    "test-reporter-doc": "mocha ./test/**/*.js --reporter doc > ./test/report/test.html",
+    "test-report": "nyc --reporter=html mocha ./test/**/*.js",
+    "test-report-doc": "mocha ./test/**/*.js --reporter doc > ./test/report/test.html",
     "start": "node index.js"
   },
   "repository": {
@@ -27,6 +28,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
     "sinon": "^9.2.1",
     "sinon-chai": "^3.5.0"
   },

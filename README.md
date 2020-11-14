@@ -27,12 +27,9 @@ Padrões implementados com teste unitário autmoatizado:
 
 Documentações para os testes unitários:
 
-[Mocha](https://mochajs.org/api/)
-
-[Sinon](https://sinonjs.org/)
-
-[Chai](https://www.chaijs.com/)
-
+[Mocha](https://mochajs.org/api/),
+[Sinon](https://sinonjs.org/),
+[Chai](https://www.chaijs.com/),
 [Sinon-Chai](https://www.npmjs.com/package/sinon-chai)
 
 ## Author

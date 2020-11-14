@@ -13,8 +13,7 @@ chai.use(sinonChai)
 const expect = chai.expect
 
 module.exports = {
-  expect,
-  assert, 
-  sinon,
-  expect
+    expect,
+    assert,
+    sinon
 }
