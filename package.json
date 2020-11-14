@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/AndreVeiga/padroes-em-nodejs#readme",
   "dependencies": {
-    "mocha": "^8.2.1"
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.1",
+    "sinon-chai": "^3.5.0"
   }
 }
