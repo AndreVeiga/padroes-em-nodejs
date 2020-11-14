@@ -3,23 +3,15 @@
  * 
  * @author Elton Veiga
  */
-const continuationPassing = require('../patterns/continuation-passing')
-const creationalPattern = require('../patterns/creational')
+const contPassPatterns = moduleImports('patterns/continuation-passing')
 
 const print = result => console.log(`Valor da soma: ${result}`)
 
-function implementationSoma () {
+function continuationPassing () {
   const a = 10
   const b = 20
-  print(continuationPassing.somaSincrona(a, b))
-  continuationPassing.somaAssincrona(a, b, print)
+  print(contPassPatterns.somaSincrona(a, b))
+  contPassPatterns.somaAssincrona(a, b, print)
 }
 
-function creational () {
-  const obj = creationalPattern.createObj()
-  console.log('Objeto vazio: ' + obj)
-  const pessoa = creationalPattern.addPropritiesFromObject('nome', 'João')
-  console.log('Objeto com atributos: ' + pessoa['nome'])
-} 
-
-module.exports = creational
+module.exports = continuationPassing

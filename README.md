@@ -35,7 +35,7 @@ https://www.chaijs.com/
 
 https://www.npmjs.com/package/sinon-chai
 
-# Author
+## Author
 
 Eu, [Elton Veiga](https://about.me/eltonveiga),ou precisamente, Elton André Souto Machado Veiga, sou desenvolvedor Full Stack atualmente (React, Java 8 com Spring Boot, MySql, Oracle DB e Android Nativo), andarilho nativo por algumas linguagens, simplesmente apaixonado por tecnologia, formula 1 e aviação, nerd, casado e pai de um fera incrível, resolvi criar esse repositório a fim de expor meu conhecimentos para ajudar os iniciantes.
 Espero de :heart: que eu possa ajudar alguém de alguma maneira, pois nem sempre é fácil esse caminho.

@@ -3,8 +3,8 @@
  * @author Elton Veiga
  */
 
-const pattern = moduleImports('src/patterns/continuation-passing')
-const { assert, sinon, expect } = moduleImports('test/configTest')
+const pattern = moduleImports('patterns/continuation-passing')
+const { assert, sinon, expect } = moduleImports('configTest', 'test/')
 
 describe('Teste para o Continuation Passing', function() {
     let a, b, sum
@@ -28,4 +28,8 @@ describe('Teste para o Continuation Passing', function() {
       pattern.somaAssincrona(0, 0, spy)
       expect(spy).to.have.been.called
     })
+
+    it('Testando o resultado chamada da função assyncrona (ok)', () => {
+         
+      })
 })

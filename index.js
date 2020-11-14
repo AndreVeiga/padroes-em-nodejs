@@ -1,4 +1,4 @@
-require('./pathConfig')
+const pathConfig = require('./pathConfig')
 
-const implContPass = moduleImports('src/implementation/implContPass')
+const implContPass = require('./src/implementation/implContPass')
 implContPass()
