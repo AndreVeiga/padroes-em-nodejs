@@ -11,7 +11,9 @@ Projeto para estudar alguns dos padrões usando NodeJS, para desenvolvimento de 
 Através da leitura de diversos artigos, e começando com padrões simples, mas importantes, e avançada a leitura e os estudos para padrões com reuso e complexos.
 
 
-# Resumo:
+## Resumo:
+
+Padrões implementados com teste unitário autmoatizado:
 
 - [x] Continuation Passing
 - [x] Creation
