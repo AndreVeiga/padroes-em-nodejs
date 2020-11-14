@@ -1,3 +1,4 @@
-const implementationSoma = require('./src/implementation/file_test_1')
+require('./pathConfig')
 
-implementationSoma()
+const implContPass = moduleImports('src/implementation/implContPass')
+implContPass()

@@ -5,4 +5,13 @@
  */
 const createObj = () =>  new Object()
 
-module.exports = createObj
+const addPropritiesFromObject = (attr, value) => {
+  const obj = createObj()
+  obj[attr] = value
+  return obj
+} 
+
+module.exports = {
+  createObj,
+  addPropritiesFromObject
+}
