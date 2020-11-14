@@ -1,5 +1,5 @@
 # padroes-em-nodejs
-:mortar_board: Estudo de padrões em NodeJS :books:
+:mortar_board: #Estudo de padrões em NodeJS :books:
 
 :question: O que: Projeto para estudar alguns dos padrões usando NodeJS, para desenvolvimento de aplicações, a fim de melhorar a compreensão no desenvolvimento e boas práticas, e as práticas de testes unitários automatizados.
 
