@@ -1,7 +1,11 @@
 # padroes-em-nodejs
-Estudo de padrões em NodeJS
+:mortar_board: Estudo de padrões em NodeJS :books:
 
-Estudo de testes unitários com Mocha
+:question: O que: Projeto para estudar alguns dos padrões usando NodeJS, para desenvolvimento de aplicações, a fim de melhorar a compreensão no desenvolvimento e boas práticas, e as práticas de testes unitários automatizados.
+
+:heavy_check_mark: Como: Através da leitura de diversos artigos, e começando com padrões simples, mas importantes, e avançada a leitura e os estudos para padrões com reuso e complexos.
+
+Documentações para os testes unitários:
 
 https://mochajs.org/api/
 
