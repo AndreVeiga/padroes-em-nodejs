@@ -4,13 +4,33 @@
  * @author Elton Veiga
  */
 
-const creationalPattern = moduleImports('patterns/creational')
+const pattern = moduleImports('patterns/creational')
+
+const creationalSimpl = isReturn => {
+    if (isReturn) {
+        return
+    }
+
+    const obj = pattern.createObj()
+    console.log('Objeto vazio: ' + obj)
+    const pessoa = pattern.addPropritiesFromObject('nome', 'João')
+    console.log('Objeto com atributos: ' + pessoa.nome)
+}
 
 function creational () {
-    const obj = creationalPattern.createObj()
-    console.log('Objeto vazio: ' + obj)
-    const pessoa = creationalPattern.addPropritiesFromObject('nome', 'João')
-    console.log('Objeto com atributos: ' + pessoa.nome)
+    creationalSimpl(true)
+
+    const obj = {
+        name: 'ABC',
+        age: 0,
+        salary: 3.0001
+    }
+
+    const attr = ['name', 'age', 'idade', 'salary']
+
+    const objReturned = pattern.convertObj(obj, attr)
+
+    Object.keys(objReturned).map(e => console.log(objReturned[e]))
 }
 
 module.exports = creational

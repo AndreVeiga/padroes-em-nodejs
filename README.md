@@ -32,7 +32,7 @@ Este padrão que evita fazer o código assincrono ter que esperar, ou seja, voc�
 
 Esse padrão é muito simples de entender, mas pouco usado. Ele simplesmente se encarrega de criar os objetos. Em JS, isso é muito simples, pois a definição de objeto é mais flexivel. Entretanto, esse padrão pode ajudar, se por exemplo, ao invés de apenas criar os objetos, ele converter um objeto com as propriedade que passarem em um array. Isso gera um flexibilidade e maior usabilidade do padrão.
 
-Documentações para os testes unitários:
+## Documentações para os testes unitários:
 
 [Mocha](https://mochajs.org/api/),
 [Sinon](https://sinonjs.org/),

@@ -14,6 +14,7 @@ module.exports = {
         'no-undef': 0,
         'no-unused-expressions': 0,
         'no-new-object': 0,
+        'no-return-assign': 0,
         indent: ['error', 4]
     }
 }

@@ -1,4 +1,12 @@
+/**
+ * Classe inicial para testes das implementações dos padrões em NodeJS
+ *
+ * @author Elton Veiga
+ */
 require('./pathConfig')
 
-const implContPass = require('./src/implementation/implContPass')
-implContPass()
+// const implContPass = moduleImports('implementation/implContPass')
+const implCreational = moduleImports('implementation/implCreational')
+
+// implContPass()
+implCreational()
