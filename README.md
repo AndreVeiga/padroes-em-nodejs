@@ -3,7 +3,7 @@
 :mortar_board: :books:
 # Estudo de padrões em NodeJS
 
-:question: *O que:* 
+:question: *O que:*
 
 Projeto para estudar alguns dos padrões usando NodeJS, para desenvolvimento de aplicações, a fim de melhorar a compreensão no desenvolvimento e boas práticas, e as práticas de testes unitários automatizados.
 
@@ -27,13 +27,13 @@ Padrões implementados com teste unitário autmoatizado:
 
 Documentações para os testes unitários:
 
-https://mochajs.org/api/
+[Mocha](https://mochajs.org/api/)
 
-https://sinonjs.org/
+[Sinon](https://sinonjs.org/)
 
-https://www.chaijs.com/
+[Chai](https://www.chaijs.com/)
 
-https://www.npmjs.com/package/sinon-chai
+[Sinon-Chai](https://www.npmjs.com/package/sinon-chai)
 
 ## Author
 
