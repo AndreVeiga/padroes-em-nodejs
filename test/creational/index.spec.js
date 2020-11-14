@@ -1,5 +1,6 @@
 /**
  * Classe de testes do padrão Creational
+ *
  * @author Elton Veiga
  */
 

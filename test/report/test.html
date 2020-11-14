@@ -23,6 +23,11 @@ assert.notEqual(sum, pattern.somaAssincrona(a, b, func))</code></pre></dd>
       <dl>
         <dt>Testando cria&#xE7;&#xE3;o de objetos vazios</dt>
         <dt>D:\Projetos\padroes-em-nodejs\test\creational\index.spec.js</dt>
-        <dd><pre><code>//pattern.</code></pre></dd>
+        <dd><pre><code>const result = pattern.createObj()
+assert.equal(result.name, undefined)</code></pre></dd>
+        <dt>Testando cria&#xE7;&#xE3;o de objetos com propriedades</dt>
+        <dt>D:\Projetos\padroes-em-nodejs\test\creational\index.spec.js</dt>
+        <dd><pre><code>const result = pattern.addPropritiesFromObject(attr, value)
+assert.equal(result[attr], value)</code></pre></dd>
       </dl>
     </section>
