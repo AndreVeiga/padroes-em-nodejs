@@ -11,7 +11,9 @@ module.exports = {
         ecmaVersion: 2018
     },
     rules: {
-        "no-undef": true,
+        'no-undef': 0,
+        'no-unused-expressions': 0,
+        'no-new-object': 0,
         indent: ['error', 4]
     }
 }
