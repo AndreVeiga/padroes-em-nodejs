@@ -22,8 +22,8 @@ Padrões implementados com testes unitários automatizados:
 
 - [x] Continuation Passing
 - [x] Creational
-- [x] Constructor :construction_worker:
-- [ ] Singleton
+- [x] Constructor
+- [ ] Singleton :construction_worker:
 
 ## Getting Starting
 
@@ -87,6 +87,10 @@ Esse padrão é muito simples de entender, mas pouco usado. Ele simplesmente se 
 ## Constructor
 
 Em Javascript, um constructor é uma função responsável por implementar um objeto com atributos. Porém esses objetos não são considerados como classes igual o Java, C# e outras linguagens orientadas à objetos consideram. Apenas são construtores especiais para uma função, pois Javascript é uma linguagem orientada à protótipos. A palavra-chave new permite instanciar um objeto passando por parâmetros atributos para eles. E esses construtores armazenam em seus objetos atributos e funções que são referenciadas através da palavra-chave *this*.
+
+## Singleton
+
+Este padrão é implementado para criar uma única instância de objeto, pelo qual será reaproveitado por toda a aplicação. Por que na prática esta função irá retornar uma instância já existente do objeto. Resumindo o Singleton restringe o número de criações de um objeto para apenas uma única instância.
 
 ## Documentações para os testes unitários:
 
