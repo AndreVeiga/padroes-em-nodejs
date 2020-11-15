@@ -1,3 +1,4 @@
+const creational = moduleImports('patterns/creational')
 
 /**
  * Modelo com atributos públicos
@@ -45,6 +46,15 @@ function PessoaPrivada (nome, sobrenome, cpf, rg, login, senha) {
     }
 
     this.getNome = () => _nome
+    this.getSobreNome = () => _sobrenome
+    this.getCpf = () => _cpf
+    this.getRG = () => _rg
+    this.getLogin = () => _login
+    this.getSenha = () => _senha
+
+    const _ = { nome, sobrenome, rg, login }
+    const $ = ['nome', 'sobrenome', 'rg', 'login']
+    return creational.convertObj(_, $)
 }
 
 module.exports = {

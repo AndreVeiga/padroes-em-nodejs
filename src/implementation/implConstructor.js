@@ -11,7 +11,7 @@ function pattern () {
     console.log(pessoa)
 
     const pessoaPrivada = new PessoaPrivada('André', 'Veiga')
-    console.log(pessoaPrivada.getNome())
+    console.log(pessoaPrivada)
 }
 
 module.exports = pattern
