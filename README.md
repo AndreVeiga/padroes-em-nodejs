@@ -1,5 +1,5 @@
 # padroes-em-nodejs
-*#NodeJS #Patterns #BestPratices #EltonVeiga*
+*#NodeJS #Patterns #BestPratices #EltonVeiga* :flag_br:
 :mortar_board: :books:
 # Estudo de padrões em NodeJS
 
@@ -24,6 +24,7 @@ Padrões implementados com testes unitários automatizados:
 - [x] Creational
 - [x] Constructor
 - [ ] Singleton :construction_worker:
+- [ ] Immediately Invoked Function Expressions (IIFE)
 
 ## Getting Starting
 
@@ -76,6 +77,8 @@ ou
 
 > npm test-report-doc
 
+## Patterns em NodeJS
+
 ## Continuation Passing
 
 Este padrão que evita fazer o código assincrono ter que esperar, ou seja, você pode fazer a função assincrona e, as invés de espera-lá, bloqueando a execução, você passa um callback e segue o fluxo. Quando sua função estiver pronta, ela executa a callback. (Conceito de Promises em JS).
@@ -91,6 +94,10 @@ Em Javascript, um constructor é uma função responsável por implementar um ob
 ## Singleton
 
 Este padrão é implementado para criar uma única instância de objeto, pelo qual será reaproveitado por toda a aplicação. Por que na prática esta função irá retornar uma instância já existente do objeto. Resumindo o Singleton restringe o número de criações de um objeto para apenas uma única instância.
+
+## Immediately Invoked Function Expressions (IIFE)
+
+O primeiro padrão que vou mostrar a você é aquele que permite definir e chamar uma função ao mesmo tempo. Devido à maneira como os escopos JavaScript funcionam, usar IIFEs pode ser ótimo para simular coisas como propriedades privadas em classes. Na verdade, esse padrão específico às vezes é usado como parte dos requisitos de outros padrões mais complexos. Veremos como em breve.
 
 ## Documentações para os testes unitários:
 
