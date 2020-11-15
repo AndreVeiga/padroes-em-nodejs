@@ -22,7 +22,7 @@ Padrões implementados com testes unitários automatizados:
 
 - [x] Continuation Passing
 - [x] Creational
-- [ ] Constructor
+- [x] Constructor :construction_worker:
 
 ## Getting Starting
 
