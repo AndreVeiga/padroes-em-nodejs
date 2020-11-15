@@ -24,6 +24,49 @@ Padrões implementados com testes unitários automatizados:
 - [x] Creational
 - [ ] Constructor
 
+## Getting Starting
+
+Para rodar o projeto, você precisará ter as seguintes ferramentas (entre parenteses, as minhas versões):
+- NodeJS (~14.6)
+- Git (~2.28)
+- Yarn (~1.22) ou NPM (~6.14)
+
+Você pode começar clonando o repositório para sua máquina local com o comando:
+
+> Git Clone https://github.com/AndreVeiga/padroes-em-nodejs.git
+
+Você pode baixar as dependências com o comando (se prefere yarn):
+
+> yarn install
+
+Ou se prefere NPM:
+
+> npm install
+
+Para executar o projeto, se usar prefere usar o Yarn:
+
+> yarn start
+
+ou o NPM:
+
+> npm run start
+
+Para os testes unitários, há 3 possibilidades:
+
+> yarn test
+ou
+> npm test
+
+Para ver a coverage (coberta total em relação ao código), sendo que ele gerará um html na pasta coverage/index.html
+> yarn test-report
+ou
+> npm test-report
+
+E para gerar a documentação dos testes, a fim de verificação, sendo que ele gerar um arquivo html na pasta test/report/test.html
+> yarn test-report-doc
+ou
+> test-report-doc
+
 ## Continuation Passing
 
 Este padrão que evita fazer o código assincrono ter que esperar, ou seja, você pode fazer a função assincrona e, as invés de espera-lá, bloqueando a execução, você passa um callback e segue o fluxo. Quando sua função estiver pronta, ela executa a callback. (Conceito de Promises em JS).

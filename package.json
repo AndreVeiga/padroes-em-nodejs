@@ -7,6 +7,7 @@
     "test": "mocha ./test/**/*.js",
     "test-report": "nyc --reporter=html mocha ./test/**/*.js",
     "test-report-doc": "mocha ./test/**/*.js --reporter doc > ./test/report/test.html",
+    "prestart": "yarn install",
     "start": "node index.js",
     "lint": "eslint --fix --ext .js,.jsx ."
   },
