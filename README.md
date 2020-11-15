@@ -31,11 +31,11 @@ Para rodar o projeto, você precisará ter as seguintes ferramentas (entre paren
 - Git (~2.28)
 - Yarn (~1.22) ou NPM (~6.14)
 
-Você pode começar clonando o repositório para sua máquina local com o comando:
+Você pode começar clonando :arrow_down_small: o repositório para sua máquina local :computer: com o comando:
 
 > Git Clone https://github.com/AndreVeiga/padroes-em-nodejs.git
 
-Você pode baixar as dependências com o comando (se prefere yarn):
+Você pode baixar :arrow_down_small: as dependências com o comando (se prefere yarn):
 
 > yarn install
 
@@ -43,7 +43,7 @@ Ou se prefere NPM:
 
 > npm install
 
-Para executar o projeto, se usar prefere usar o Yarn:
+Para executar :arrow_up_small: o projeto, se usar prefere usar o Yarn:
 
 > yarn start
 
@@ -59,7 +59,7 @@ ou
 
 > npm test
 
-Para ver a coverage (coberta total em relação ao código), sendo que ele gerará um html na pasta coverage/index.html
+Para ver a coverage :chart_with_upwards_trend: (coberta total em relação ao código), sendo que ele gerará um html na pasta coverage/index.html
 
 > yarn test-report
 
@@ -67,7 +67,7 @@ ou
 
 > npm test-report
 
-E para gerar a documentação dos testes, a fim de verificação, sendo que ele gerar um arquivo html na pasta test/report/test.html
+E para gerar a documentação dos testes :bookmark_tabs:, a fim de verificação, sendo que ele gerar um arquivo html na pasta test/report/test.html
 
 > yarn test-report-doc
 
