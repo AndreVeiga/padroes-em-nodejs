@@ -1,5 +1,5 @@
 # padroes-em-nodejs
-*#NodeJS #Patterns #BestPratices #EltonVeiga* :flag_br:
+*#NodeJS #Patterns #BestPratices #EltonVeiga*  :brazil:
 :mortar_board: :books:
 # Estudo de padrões em NodeJS
 
