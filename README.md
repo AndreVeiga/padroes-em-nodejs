@@ -54,18 +54,26 @@ ou o NPM:
 Para os testes unitários, há 3 possibilidades:
 
 > yarn test
+
 ou
+
 > npm test
 
 Para ver a coverage (coberta total em relação ao código), sendo que ele gerará um html na pasta coverage/index.html
+
 > yarn test-report
+
 ou
+
 > npm test-report
 
 E para gerar a documentação dos testes, a fim de verificação, sendo que ele gerar um arquivo html na pasta test/report/test.html
+
 > yarn test-report-doc
+
 ou
-> test-report-doc
+
+> npm test-report-doc
 
 ## Continuation Passing
 
