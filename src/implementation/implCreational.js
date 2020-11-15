@@ -23,10 +23,11 @@ function creational () {
     const obj = {
         name: 'ABC',
         age: 0,
-        salary: 3.0001
+        salary: 3.0001,
+        development: false
     }
 
-    const attr = ['name', 'age', 'idade', 'salary']
+    const attr = ['name', 'age', 'idade', 'salary', 'development']
 
     const objReturned = pattern.convertObj(obj, attr)
 

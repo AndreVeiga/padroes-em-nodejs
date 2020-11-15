@@ -11,15 +11,12 @@ const addPropritiesFromObject = (attr, value) => {
     obj[attr] = value
     return obj
 }
-const addPropritiesWithObject = (attr, value, obj = createObj()) => {
-    obj[attr] = value
-    return obj
-}
+const addPropritiesWithObject = (attr, value, obj = createObj()) => obj[attr] = value
 
 const convertObj = (obj, attr = []) => {
     const objReturn = createObj()
     attr
-        .filter(a => obj[a] === 0 || obj[a])
+        .filter(a => obj[a] !== null && obj[a] !== undefined)
         .map(a => addPropritiesWithObject(a, obj[a], objReturn))
     return objReturn
 }

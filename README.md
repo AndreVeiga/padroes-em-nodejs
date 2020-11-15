@@ -28,7 +28,7 @@ Padrões implementados com teste unitário autmoatizado:
 
 Este padrão que evita fazer o código assincrono ter que esperar, ou seja, você pode fazer a função assincrona e, as invés de espera-lá, bloqueando a execução, você passa um callback e segue o fluxo. Quando sua função estiver pronta, ela executa a callback. (Conceito de Promises em JS).
 
-## Creation
+## Creational
 
 Esse padrão é muito simples de entender, mas pouco usado. Ele simplesmente se encarrega de criar os objetos. Em JS, isso é muito simples, pois a definição de objeto é mais flexivel. Entretanto, esse padrão pode ajudar, se por exemplo, ao invés de apenas criar os objetos, ele converter um objeto com as propriedade que passarem em um array. Isso gera um flexibilidade e maior usabilidade do padrão.
 
