@@ -18,7 +18,7 @@ Apesar de eu entender a necessidade, meu foco aqui é apenas nos padrões e nos 
 
 ## Resumo:
 
-Padrões implementados com teste unitário autmoatizado:
+Padrões implementados com testes unitários automatizados:
 
 - [x] Continuation Passing
 - [x] Creational
