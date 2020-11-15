@@ -11,7 +11,10 @@ const addPropritiesFromObject = (attr, value) => {
     obj[attr] = value
     return obj
 }
-const addPropritiesWithObject = (attr, value, obj = createObj()) => obj[attr] = value
+const addPropritiesWithObject = (attr, value, obj = createObj()) => {
+    obj[attr] = value
+    return obj
+}
 
 const convertObj = (obj, attr = []) => {
     const objReturn = createObj()
@@ -24,5 +27,6 @@ const convertObj = (obj, attr = []) => {
 module.exports = {
     createObj,
     addPropritiesFromObject,
-    convertObj
+    convertObj,
+    addPropritiesWithObject
 }

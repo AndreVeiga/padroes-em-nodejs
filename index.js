@@ -6,7 +6,9 @@
 require('./pathConfig')
 
 // const implContPass = moduleImports('implementation/implContPass')
-const implCreational = moduleImports('implementation/implCreational')
+// const implCreational = moduleImports('implementation/implCreational')
+const implConstructor = moduleImports('implementation/implConstructor')
 
 // implContPass()
-implCreational()
+// implCreational()
+implConstructor()
