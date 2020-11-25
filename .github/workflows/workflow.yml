@@ -10,7 +10,8 @@ jobs:
             matrix:
                 node-version: [12.x]
         steps:
-        - uses: actions/checkout@v2
+        - name: Checkout git
+          uses: actions/checkout@v2
           run: git fecth --prume --unshallow
 
         - name: Use Node.js ${{matrix.node-version}}
