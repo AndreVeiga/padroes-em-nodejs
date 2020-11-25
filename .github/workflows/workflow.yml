@@ -1,0 +1,26 @@
+
+name: workflow
+
+on: ['push']
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: [12.x]
+        steps:
+        - name: Checkout git
+          uses: actions/checkout@v2
+          run: git fecth --prume --unshallow
+
+        - name: Use Node.js ${{matrix.node-version}}
+          uses: actions/setup-node@v1
+          with:
+            node-version: ${{matrix.node-version}}
+
+        - name: Install dependecies
+          uses: yarn --frozen-lockfile
+
+        - name: Run Tests
+          uses: yarn test

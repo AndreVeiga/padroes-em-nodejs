@@ -1,3 +1,5 @@
+![.github/workflows/workflow.yml](https://github.com/AndreVeiga/padroes-em-nodejs/workflows/.github/workflows/workflow.yml/badge.svg)
+
 # padroes-em-nodejs
 *#NodeJS #Patterns #BestPratices #EltonVeiga*  :brazil:
 :mortar_board: :books:
