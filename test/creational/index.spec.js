@@ -4,8 +4,8 @@
  * @author Elton Veiga
  */
 
-const pattern = moduleImports('patterns/creational')
-const { assert } = moduleImports('configTest', 'test/')
+const pattern = require('../../src/patterns/creational')
+const { assert } = require('../configTest')
 
 describe('Teste para o Creational', function () {
     let attr, value

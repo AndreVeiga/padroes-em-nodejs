@@ -1,4 +1,4 @@
-const creational = moduleImports('patterns/creational')
+const creational = require('./creational')
 
 /**
  * Modelo com atributos públicos
