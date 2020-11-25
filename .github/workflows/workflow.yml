@@ -10,16 +10,16 @@ jobs:
             matrix:
                 node-version: [12.x]
         steps:
-        -uses: actions/checkout@v2
-        -run: git fecth --prume --unshallow
+        - uses: actions/checkout@v2
+          run: git fecth --prume --unshallow
 
-        -name: Use Node.js ${{matrix.node-version}}
-        -uses: actions/setup-node@v1
-        -with:
+        - name: Use Node.js ${{matrix.node-version}}
+          uses: actions/setup-node@v1
+          with:
             node-version: ${{matrix.node-version}}
 
-        -name: Install dependecies
-        -uses: yarn --frozen-lockfile
+        - name: Install dependecies
+          uses: yarn --frozen-lockfile
 
-        -name: Run Tests
-        -uses: yarn test
+        - name: Run Tests
+          uses: yarn test
