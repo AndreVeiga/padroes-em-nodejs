@@ -3,8 +3,8 @@
  *
  * @author Elton Veiga
  */
-const pattern = moduleImports('patterns/continuation-passing')
-const { assert, sinon, expect } = moduleImports('configTest', 'test/')
+const pattern = require('../../src/patterns/continuation-passing')
+const { assert, sinon, expect } = require('../configTest')
 
 describe('Teste para o Continuation Passing', function () {
     let a, b, sum

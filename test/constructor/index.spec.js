@@ -3,8 +3,8 @@
  *
  * @author Elton Veiga
  */
-const { Pessoa, PessoaPrivada, PessoaPrivadaCongelada } = moduleImports('patterns/constructor')
-const { assert } = moduleImports('configTest', 'test/')
+const { Pessoa, PessoaPrivada, PessoaPrivadaCongelada } = require('../../src/patterns/constructor')
+const { assert } = require('../configTest')
 
 describe('Teste para o Constructor', () => {
     it('Testando a @Pessoa com um atributo (nome)', () => {
