@@ -7,8 +7,10 @@ require('./pathConfig')
 
 // const implContPass = moduleImports('implementation/implContPass')
 // const implCreational = moduleImports('implementation/implCreational')
-const implConstructor = moduleImports('implementation/implConstructor')
+//const implConstructor = moduleImports('implementation/implConstructor')
+const implSingleton = moduleImports('implementation/implSingleton')
 
 // implContPass()
 // implCreational()
-implConstructor()
+//implConstructor()
+implSingleton()
